@@ -1,11 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космос</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #020111, #0d1b4c, #000);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #cccccc;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 20px;
+            width: 250px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: rgba(255,255,255,0.18);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #bbb;
+        }
+    </style>
 </head>
 <body>
-    <h1>Pizza</h1>
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+<header>
+    <h1>🌌 Путешествие в космос</h1>
+    <p>Исследуйте Вселенную и откройте для себя её тайны.</p>
+</header>
+
+<section>
+    <h2>Интересные факты</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🌍 Земля</h3>
+            <p>Единственная известная планета, на которой существует жизнь.</p>
+        </div>
+
+        <div class="card">
+            <h3>☀️ Солнце</h3>
+            <p>Звезда, вокруг которой вращаются все планеты Солнечной системы.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌙 Луна</h3>
+            <p>Естественный спутник Земли, влияющий на приливы и отливы.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 | Я
+</footer>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </body>
 </html>
